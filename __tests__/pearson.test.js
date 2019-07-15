@@ -1,7 +1,7 @@
 
 'use strict';
 
-const probabilityOfLinearCorrelation = require('../app');
+const probabilityOfLinearCorrelation = require('../src/app');
 
 test('linear correlation on X axis which returns NaN. the division of two numbers tending to 0 results NaN', () => {
   const points = [
